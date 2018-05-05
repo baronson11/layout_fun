@@ -1,0 +1,96 @@
+
+body {
+  font-family: 'saxmono', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.7;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0 15px;
+}
+
+/* Font Styles------------------- */
+
+@fontface {
+  font-family: 'saxmono';
+  src: url('font/saxmono.woff');
+}
+
+/* header Styles------------------- */
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#top-nav {
+  background-color: #e4e4e4;
+}
+
+/* link styles --------------- */
+
+a:link {
+  text-decoration: none;
+  color: #c36021;
+}
+
+/* featured section -------------- */
+
+.featured {
+  padding: 150px;
+  background: linear-gradient(0deg, #e4e4e4, transparent 10%),
+              grey url('../img/featured.jpg') no-repeat center/cover;
+  color: white;
+  text-shadow: black .5px .5px .5px;
+  margin: auto 0;
+}
+
+.ask-button {
+  padding: 10px;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  border: dotted black 1px;
+}
+
+/* About section ------------------ */
+
+.about {
+  background-color: #e4e4e4;
+  color: #c36021;
+}
+
+.about div {
+  display: inline-block;
+  width: 30%;
+}
+
+.about img {
+  width: 20%;
+}
+
+/* footer of page ----------------*/
+
+.foot {
+  background-color: #e4e4e4;
+  padding-top: 100px;
+}
